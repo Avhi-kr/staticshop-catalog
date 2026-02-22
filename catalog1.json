@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "email": "23f3001103@ds.study.iitm.ac.in",
+    "version": "3da72a2f"
+  },
+  "products": [
+    { "id": "prod-001", "name": "Item 1", "category": "clothing", "price": 120.50, "stock": 50, "rating": 4.1 },
+    { "id": "prod-002", "name": "Item 2", "category": "sports", "price": 75.00, "stock": 80, "rating": 3.9 },
+    { "id": "prod-003", "name": "Item 3", "category": "electronics", "price": 299.99, "stock": 40, "rating": 4.5 },
+    { "id": "prod-004", "name": "Item 4", "category": "books", "price": 45.00, "stock": 60, "rating": 4.2 },
+    { "id": "prod-005", "name": "Item 5", "category": "clothing", "price": 89.99, "stock": 70, "rating": 3.8 },
+
+    { "id": "prod-006", "name": "Home Item 1", "category": "home", "price": 25000.50, "stock": 1, "rating": 4.0 },
+    { "id": "prod-007", "name": "Home Item 2", "category": "home", "price": 30000.00, "stock": 1, "rating": 4.3 },
+    { "id": "prod-008", "name": "Home Item 3", "category": "home", "price": 20000.25, "stock": 1, "rating": 4.4 },
+    { "id": "prod-009", "name": "Home Item 4", "category": "home", "price": 15000.75, "stock": 1, "rating": 4.2 },
+    { "id": "prod-010", "name": "Home Item 5", "category": "home", "price": 21904.87, "stock": 1, "rating": 4.6 },
+
+    { "id": "prod-011", "name": "Item 11", "category": "sports", "price": 199.99, "stock": 30, "rating": 4.4 },
+    { "id": "prod-012", "name": "Item 12", "category": "electronics", "price": 499.99, "stock": 25, "rating": 4.7 },
+    { "id": "prod-013", "name": "Item 13", "category": "books", "price": 60.00, "stock": 40, "rating": 4.1 },
+    { "id": "prod-014", "name": "Item 14", "category": "clothing", "price": 150.00, "stock": 45, "rating": 3.9 },
+    { "id": "prod-015", "name": "Item 15", "category": "sports", "price": 85.00, "stock": 55, "rating": 4.0 },
+
+    { "id": "prod-016", "name": "Item 16", "category": "electronics", "price": 350.00, "stock": 20, "rating": 4.6 },
+    { "id": "prod-017", "name": "Item 17", "category": "books", "price": 30.00, "stock": 90, "rating": 4.3 },
+    { "id": "prod-018", "name": "Item 18", "category": "clothing", "price": 110.00, "stock": 35, "rating": 3.7 },
+    { "id": "prod-019", "name": "Item 19", "category": "sports", "price": 140.00, "stock": 25, "rating": 4.2 },
+    { "id": "prod-020", "name": "Item 20", "category": "electronics", "price": 275.00, "stock": 15, "rating": 4.5 }
+  ],
+  "aggregations": {
+    "clothing": {
+      "count": 4,
+      "inventoryValue": 21224.5
+    },
+    "sports": {
+      "count": 4,
+      "inventoryValue": 23599.7
+    },
+    "electronics": {
+      "count": 4,
+      "inventoryValue": 48999.6
+    },
+    "books": {
+      "count": 3,
+      "inventoryValue": 6300.0
+    },
+    "home": {
+      "count": 5,
+      "inventoryValue": 111904.87
+    }
+  }
+}
